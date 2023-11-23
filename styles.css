@@ -78,9 +78,33 @@ li a {
 ul li {
 		display: inline-block;
 		position: relative;
+		transition-duration: 0.4s;
 	}
+ul li:hover{
+		transform: scale(1.1);
+}
 ul li a {
 		display: block;
 		text-decoration:none;
 		font-size:20px;
+		transition-duration: 0.4s;
 	}
+ul li a:hover{
+		text-decoration:underline;
+	}
+.homebanner button{
+	background-color: black;
+	transition-duration: 0.4s;
+}
+.homebanner button a{
+	color:white;
+	transition-duration: 0.4s;
+}
+.homebanner button:hover{
+	background-color:white;
+	color:black;
+	}
+.homebanner button a:hover{
+	color:black;
+}
+
