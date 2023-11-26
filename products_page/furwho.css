@@ -1,10 +1,10 @@
 @font-face {
 	font-family:leaguegothic;
-	src: url(LeagueGothic.ttf);
+	src: url(../LeagueGothic.ttf);
 	}
 @font-face {
 	font-family:inter;
-	src: url(Inter.ttf);
+	src: url(../Inter.ttf);
 	}
 body { 
 		background-size:cover;
