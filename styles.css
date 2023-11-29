@@ -6,6 +6,9 @@
 	font-family:inter;
 	src: url(Inter.ttf);
 	}
+	
+	
+	
 body { 
 		background-size:cover;
 		background-repeat:repeat;
@@ -53,6 +56,8 @@ ul {
 		list-style-type: none;
 
 	}
+	
+	
 .navbar {
 		padding-right:15px;
 		padding-left: 15px;
@@ -64,6 +69,7 @@ ul {
 		align-items: center;
 		justify-content: space-between;
 	}
+
 
 li {
 		list-style: none;
@@ -92,6 +98,24 @@ ul li a {
 ul li a:hover{
 		text-decoration:underline;
 	}
+.searchbox {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+
+input[type=text] {
+  padding: 1px;  
+  margin-top: 5px;
+  font-size:30px;  
+  border: none;
+}  
+
+input[type=text]::placeholder {
+  color: #603b00;
+  opacity: 0.8;
+}
+
 .homebanner button{
 	background-color: black;
 	transition-duration: 0.4s;
@@ -107,4 +131,3 @@ ul li a:hover{
 .homebanner button a:hover{
 	color:black;
 }
-
