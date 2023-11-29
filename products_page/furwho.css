@@ -93,7 +93,26 @@ ul li a {
 ul li a:hover{
 		text-decoration:underline;
 	}
+.searchbox {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+input[type=text] {
+  padding: 1px; 
+  margin-right:374px;
+  font-size:25px;  
+  border: 1px solid #F2EAD3;
+  padding: 9px;
+  width: 95%;
+  border-radius: 12px;
+} 
 
+input[type=text]::placeholder {
+  text-align:center;
+  color: #603b00;
+  opacity: 0.8;
+}
 .selection-container{
 	display: flex;
 	justify-content:center;
