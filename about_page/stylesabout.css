@@ -94,7 +94,7 @@ input[type=text]::placeholder {
   color: #603b00;
   opacity: 0.8;
 }
-main {
+.about {
       font-family: inter;
       padding: 20px;
 	  width: 60%;
