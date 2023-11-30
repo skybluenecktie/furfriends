@@ -1,11 +1,35 @@
 @font-face {
 	font-family:leaguegothic;
-	src: url(LeagueGothic.ttf);
+	src: url(../LeagueGothic.ttf);
 	}
 @font-face {
 	font-family:inter;
-	src: url(Inter.ttf);
+	src: url(../Inter.ttf);
 	}
+body { 
+		background-size:cover;
+		background-repeat:repeat;
+		background-color:#ffffff;		
+		text-align: center;
+		font-family:inter;
+	}
+h1 {
+  margin-top:25px;
+  font-size: 40px;
+  color: #3e2723; 
+ 
+}
+h2 {
+
+  font-size: 30px;
+  color: #3e2723; 
+}
+p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #603b00;
+  
+}
 a   {
 		color: #603b00;
 		text-align: center; 
@@ -77,13 +101,6 @@ input[type=search-bar]::placeholder {
   color: #603b00;
   opacity: 0.8;
 }
-body { 
-		background-size:cover;
-		background-repeat:repeat;
-		background-color:#ffffff;		
-		text-align: center;
-		font-family:inter;
-	}
 header {
   padding: 20px;
   text-align: center;
@@ -94,23 +111,6 @@ header {
   background-color: #F2EAD3;
   border-radius: 12px;
   width: 86%;
-}
-h1 {
-  margin-top:25px;
-  font-size: 40px;
-  color: #3e2723; 
- 
-}
-h2 {
-
-  font-size: 30px;
-  color: #3e2723; 
-}
-p {
-  margin-top: 15px;
-  font-size: 18px;
-  color: #603b00;
-  
 }
 main {
   display: flex;
