@@ -95,7 +95,7 @@ input[type=text]::placeholder {
   opacity: 0.8;
 }
 main {
-      font-family: leaguegothic;
+      font-family: inter;
       padding: 20px;
 	  width: 60%;
       background-color: #fff;
