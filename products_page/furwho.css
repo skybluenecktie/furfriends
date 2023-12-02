@@ -93,7 +93,7 @@ ul li a {
 ul li a:hover{
 		text-decoration:underline;
 	}
-.searchbox {  
+/*.searchbox {  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +112,7 @@ input[type=text]::placeholder {
   text-align:center;
   color: #603b00;
   opacity: 0.8;
-}
+}*/
 .selection-container{
 	display: flex;
 	justify-content:center;

@@ -75,38 +75,12 @@ ul li a {
 ul li a:hover{
 		text-decoration:underline;
 	}
-.searchbox {  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}  
-input[type=text] {
-  padding: 1px;  
-  margin-right:357px;
-  font-size:25px;  
-  border: 1px solid #F2EAD3;
-  padding: 9px;
-  width: 95%;
-  border-radius: 12px;
-}  
-input[type=text]::placeholder {
-  text-align:center;
-  color: #603b00;
-  opacity: 0.8;
-}
 .about {
-      font-family: inter;
-      padding: 20px;
-	  width: 60%;
-      background-color: #fff;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    header {
-      background-color: #603b00;
-      color: #fff;
-      text-align: center;
-      
-      padding: 2em;
+	align-items: center;
+    font-family: inter;
+    padding: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
