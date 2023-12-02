@@ -82,7 +82,7 @@ ul li a {
 ul li a:hover{
 		text-decoration:underline;
 	}
-.searchbox {  
+/*.searchbox {  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,7 +100,7 @@ input[type=search-bar]::placeholder {
   text-align:center;
   color: #603b00;
   opacity: 0.8;
-}
+}*/
 header {
   padding: 20px;
   text-align: center;
