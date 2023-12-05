@@ -1,0 +1,199 @@
+@font-face {
+	font-family:leaguegothic;
+	src: url(../LeagueGothic.ttf);
+	}
+@font-face {
+	font-family:inter;
+	src: url(../Inter.ttf);
+	}
+body { 
+		background-size:cover;
+		background-repeat:repeat;
+		background-color: white;		
+		font-family:inter;
+        text-align: center;
+		margin:0;
+	}
+h1  {
+		color: #603b00;
+		text-align: left;
+		font-size:25px;
+		font-family:inter;
+	}
+	
+h2  {
+		color:#000000; 
+		text-align: left; 
+		font-size:20px;      
+		font-family:inter;
+        margin-left: 20px
+	}
+h3  {
+        color:#603b00; 
+        text-align: center; 
+        font-size: 25px;
+        font-family:inter;
+    }	
+p   {
+		color: black;
+		text-align: left; 
+		font-size:18px;
+	}
+	
+a   {
+		color: #603b00;
+		text-align: center; 
+		font-size:20px;
+		font-family:inter;
+	}
+img  {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+ul {
+		list-style-type: none;
+
+	}
+.navbar {
+		padding-right:15px;
+		padding-left: 15px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+.navdiv {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+.navdiv li {
+		list-style: none;
+		display: inline-block;
+		padding-right: 10px;
+	}
+.navdiv li a {
+		color: #603b00;
+		font-size:20px;
+		padding-right: 10px;
+	}
+.navdiv ul li {
+		display: inline-block;
+		position: relative;
+		transition-duration: 0.25s;
+	}
+.navdiv ul li:hover{
+		transform: scale(1.1);
+}
+.navdiv ul li a {
+		display: block;
+		text-decoration:none;
+		font-size:20px;
+		transition-duration: 0.25s;
+	}
+.navdiv ul li a:hover{
+		text-decoration:underline;
+	}
+button{
+        display:block;
+        float: right;
+        background-color: #603b00;
+        transition-duration: 0.4s;
+    }
+button a{
+        color:white;
+        transition-duration: 0.4s;
+    }
+button:hover{
+        background-color:white;
+        color:#603b00;
+        }
+button a:hover{
+        color:#603b00;
+    }
+.container{
+    border-radius: 15px;
+}
+.product{
+    float:left;
+    clear: both;
+}
+.description{
+    margin-top: 180px;
+    float: right;
+    margin-right: 90px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: bisque;
+    border-style:solid;
+    border-color:black;
+    border-radius: 5%;
+}
+.description ul li{
+    text-align: left;
+    font-size:18px;
+    padding: 5px;
+}
+.wish button{
+    background-color: red;
+    transition-duration: 0.4s;
+    border-color: black;
+}
+.wish button a{
+    color:white;
+    transition-duration: 0.4s;
+}
+.wish button:hover{
+    background-color:white;
+    color:red;
+    border-color: red;
+}
+.wish button a:hover{
+    color:red;
+}
+footer {
+	color:#603b00;
+	margin-top: 20px;
+	padding-top:20px;
+	text-align: center;
+	background-color: bisque;
+  }
+footer .navbar {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+footer .navdiv {
+	display: block;
+	align-items: center;
+}
+
+footer .navdiv li {
+	list-style: default;
+	display: block;
+}
+footer .navdiv li a {
+	color: #603b00;
+	font-size:15px;
+}
+footer .navdiv ul li {
+	display: inline-block;
+	position: relative;
+	transition-duration: 0.25s;
+}
+footer .navdiv ul li:hover{
+	transform: scale(1.1);
+}
+footer .navdiv ul li a {
+	display: block;
+	text-decoration:none;
+	font-size:15px;
+	transition-duration: 0.25s;
+	padding-left:0;
+	padding-right:0;
+}
+footer .navdiv ul li a:hover{
+	text-decoration:underline;
+}
+footer .logo{
+	padding-left:0;
+	padding-right:0;
+}
