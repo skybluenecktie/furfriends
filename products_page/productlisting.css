@@ -143,3 +143,41 @@ footer .logo{
 	padding-left:0;
 	padding-right:0;
 }
+.categories{
+	border-style: solid;
+	border-color:#603b00;
+}
+.card {
+	margin-top:50px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	margin-left:200px;
+	margin-right:200px;
+}
+.item{
+	flex: 0 0 33.333333%;
+	transition-duration: 0.4s;
+}
+.item:hover{
+	transform: scale(1.1);
+}
+.description {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background:whitesmoke;
+	color: black;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .2s, visibility .2s;
+	font-size:45px;
+	font-family:leaguegothic;
+  }
+  
+.item:hover .description {
+	visibility: visible;
+	opacity: 0.8;
+  }
